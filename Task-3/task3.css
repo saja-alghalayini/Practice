@@ -1,0 +1,21 @@
+
+body{
+    background-image: url(../practice2/img/og-default-image.jpeg);
+    background-repeat: no-repeat;
+    padding-left: 10%;
+}
+
+.container{
+     background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm283-nunny-053-e.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=50ab5eb494f489790a97c5889a1ab4b2);
+     background-repeat: no-repeat;
+     background-size: 90% ;
+}
+
+img{
+    border-radius: 50%;
+}
+
+
+img:hover{
+    opacity: 0;
+}
