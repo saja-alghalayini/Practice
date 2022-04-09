@@ -1,0 +1,75 @@
+
+<!-- create a form called Company Employee for HR that can enter the employee name and email and select 
+the employee department after clicking submit the ****data will show on a table**** where it contains a ****column to 
+generate the salary randomly between**** (100,500) and the ****data should Store in local storage**** -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>HR Data</title>
+</head>
+
+<body>
+
+    <section id="container">
+
+        <!-- Form structure -->
+        <div id="formContainer">
+            <form action="" id="employeeForm">
+                <fieldset>
+                    <legend>Company Employee</legend>
+                    <label for="" id="nameLab" name="labelNma">Name:</label>
+                    <br><input type="text" name="fname" id="fname">
+                    <br>
+                    <br>
+                    <label for="" id="emaLab" name="emaLab">Email:</label>
+                    <br><input type="text" name="emplEmail" id="emplEmail">
+                    <br>
+                    <br>
+                    <label for="" id="emaDep" name="emaDep">Department:</label>
+                    <br> <br> <select name="depEmpl" id="depEmpl" style="border: 1px solid #0d3e52; color: #0d3e52;">
+                        <option value="callCen" style="color: #0d3e52;">call-center</option>
+                        <option value="infoTech" style="color: #0d3e52;">information-Technology</option>
+                        <option value="humRes" style="color: #0d3e52;">Human-resources</option>
+                    </select>
+                    <br>
+                    <br>
+                    <button type="submit" style="color: #0d3e52;">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+
+
+       <!-- Table structure -->
+        <div id="tableContainer">
+            <table id="emplData">
+                <thead id="tableHed">
+
+                    <tr>
+                        <td>Name </td>
+                        <td>Salary</td>
+                        
+                    </tr>
+
+                </thead>
+
+                <tbody id="bodyTa"></tbody>
+                
+
+            </table>
+
+        </div>
+
+
+    </section>
+
+    <script src="./form.js"></script>
+</body>
+
+</html>
