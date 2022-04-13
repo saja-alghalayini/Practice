@@ -17,9 +17,9 @@ generate the salary randomly between**** (100,500) and the ****data should Store
 
 <body>
 
-    <section id="container">
+    <!-- <section id="container"> -->
 
-        <!-- Form structure -->
+    
         <div id="formContainer">
             <form action="" id="employeeForm">
                 <fieldset>
@@ -28,12 +28,12 @@ generate the salary randomly between**** (100,500) and the ****data should Store
                     <br><input type="text" name="fname" id="fname">
                     <br>
                     <br>
-                    <label for="" id="emaLab" name="emaLab">Email:</label>
-                    <br><input type="text" name="emplEmail" id="emplEmail">
+                    <label for="" id="emaill" name="email"l>Email:</label>
+                    <br><input type="text" name="email" id="email">
                     <br>
                     <br>
-                    <label for="" id="emaDep" name="emaDep">Department:</label>
-                    <br> <br> <select name="depEmpl" id="depEmpl" style="border: 1px solid #0d3e52; color: #0d3e52;">
+                    <label for="" id="emaDepl" name="emaDepl">Department:</label>
+                    <br> <br> <select name="emaDep" id="emaDep" style="border: 1px solid #0d3e52; color: #0d3e52;">
                         <option value="callCen" style="color: #0d3e52;">call-center</option>
                         <option value="infoTech" style="color: #0d3e52;">information-Technology</option>
                         <option value="humRes" style="color: #0d3e52;">Human-resources</option>
@@ -45,26 +45,33 @@ generate the salary randomly between**** (100,500) and the ****data should Store
             </form>
         </div>
 
-
-       <!-- Table structure -->
+        <!-- Table structure -->
         <div id="tableContainer">
             <table id="emplData">
                 <thead id="tableHed">
-
                     <tr>
-                        <td>Name </td>
+                        <td>First Name</td>
+                        <td>Email</td>
+                        <td>Department</td>
                         <td>Salary</td>
-                        
                     </tr>
 
-                </thead>
-
-                <tbody id="bodyTa"></tbody>
-                
-
+            </thead>
+            <tbody id="tableBody">
+               <td id="d1"></td>
+               <td id="d2"></td>
+               <td id="d3"></td>
+               <td id="d4"></td>
+        
+            </tbody>
+            
             </table>
-
         </div>
+
+
+
+       
+        
 
 
     </section>
@@ -73,3 +80,5 @@ generate the salary randomly between**** (100,500) and the ****data should Store
 </body>
 
 </html>
+
+
